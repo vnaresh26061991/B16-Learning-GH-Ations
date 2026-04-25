@@ -3,9 +3,9 @@ on:
   push
 
 jobs:
- b16_first_job
+ b16_first_job:
 	runs-on: ubuntu-latest
 	
     steps:
-		- name: message
+	  - name: message
 	    run: echo "Wecome to GHA bu B16 Learning"
